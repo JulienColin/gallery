@@ -1,0 +1,45 @@
+[
+  {
+  	"id": "bassano1",
+    "name": "Bassano 1",
+    "gallery" : "1",
+    "format": "65x105",
+    "technic": "Techniques mixtes sur métal, cadre en acier",
+    "year": "",
+    "highlight": "true",
+    "thumbnail": "../img/thumbnails/Bassano1.jpeg",
+    "picture": "../img/pictures/Bassano1.jpeg"
+  },
+  {
+  	"id" : "stain",
+    "name": "Stain",
+    "gallery" : "1",
+    "format": "72x84",
+    "technic": "Techniques mixtes sur toile",
+    "year": "",
+    "highlight": "true",
+    "thumbnail": "../img/thumbnails/Stain.jpeg",
+    "picture": "../img/pictures/Stain.jpeg",
+    "description": 
+    	{
+    		"title" : "Poncif",
+    		"description" : "Méthode de reproduction utilisée dans les ateliers de la  Renaissance. Le contour du dessin est piqué à la pointe. Une poudre de pierre ponce permet le transfert."
+    	}
+  },
+  {
+  	"id" : "raphaello",
+    "name": "Raphaëllo",
+    "gallery" : "3",
+    "format": "84x123",
+    "technic": "Techniques mixtes, papier tendu sur cadre en acier",
+    "year": "",
+    "highlight": "true",
+    "thumbnail": "../img/thumbnails/Raphaello.jpeg",
+    "picture": "../img/pictures/Raphaello.jpeg",
+    "description": 
+    	{
+    		"title" : "Retable",
+    		"description" : "Retable. De l'occitan Retaule, Composition de Reire(Arrière) et Taule(Table,Autel). Partie postérieure verticale décoree d'un autel."
+    	}
+  }
+]
