@@ -1,14 +1,14 @@
 /* galleryApp css stylesheet - Responsive styles */
 
 /* Tablets */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
    /* Menu styles */
    #navigation li a { font-size: 1.3em; }
 }
 
 
 /* Smartphone */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
    /* Menu styles */
    #navigation li a { font-size: 1.0em; }
    div.r-triangle { display: none; }
@@ -20,4 +20,5 @@
    
    /* Main container style */
    div.container { width: 100%; }
+   footer { max-width: 100%; }
 }

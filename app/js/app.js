@@ -1,13 +1,13 @@
 'use strict';
 
-// Registering application module
+/* Registering application module */
 angular.module('galleryApp', [
   'ngRoute',
+  'ngAnimate',
   'galleryApp.filters',
   'galleryApp.services',
   'galleryApp.directives',
   'galleryApp.controllers',
-  'galleryApp.animations'
 ]).
 config(['$routeProvider','$locationProvider', function($routeProvider,$locationProvider) {
   //use html5 routing mode when available (modern browser)

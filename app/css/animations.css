@@ -1,1 +1,8 @@
 /* CSS Animations */
+.view-frame .painting-wrapper {
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+

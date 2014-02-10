@@ -102,8 +102,25 @@ img.top-corner {
 	max-width: 25%;	
 	z-index: 400;
 }
-
 img.img-responsive {
 	height: auto;
 }
+
+/* Footer style */
+footer {
+	text-align: center;
+	z-index: 400;	
+}
+footer, .push {
+height: 2em;
+}
+div.flag-container {
+	float: left;
+	margin-left: 20px;	
+}
+img.flag {
+	height: 20px;	
+}
+
+
 

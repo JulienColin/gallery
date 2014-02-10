@@ -1,9 +1,9 @@
 <h1>{{painting.gallery}}<h1>
 <h2>{{painting.name}}</h2>
  
-	 <div class="painting-wrapper">
-	   <li class="painting">
-	   	<a ng-href="/#/{{ painting.gallery }}/{{ painting.id }}"><img ng-src="{{ painting.picture }}" alt="{{ painting.name }}" title="{{ painting.name }}"></a>
-	   </li>
-	   <span class="name">{{ painting.name | uppercase }}</span>
-	 </div>
+<div class="painting-wrapper">
+  <li class="painting">
+  	<a ng-href="/#/{{ painting.gallery }}/{{ painting.id }}"><img ng-src="{{ painting.picture }}" alt="{{ painting.name }}" title="{{ painting.name }}"></a>
+  </li>
+  <span class="name">{{ painting.name | uppercase }}</span>
+</div>
