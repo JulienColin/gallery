@@ -6,3 +6,22 @@
   animation: fadeIn 1s;
 }
 
+// Zoom effect
+.view-frame .painting.mini {
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.view-frame .painting.mini:hover {
+    -webkit-transform: scale(1.03,1.05);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.03,1.05);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+

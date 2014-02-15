@@ -2,7 +2,7 @@
 <h2>ARTISTE PEINTRE</h2>
 <ul class="gallery">
  <div class="painting-wrapper" ng-repeat="painting in paintings">
-   <li class="painting">
+   <li class="painting mini">
    	<a ng-href="/#/{{ painting.gallery }}/{{ painting.id }}"><img ng-src="{{ painting.thumbnail }}" alt="{{ painting.name }}" title="{{ painting.name }}"></a>
    </li>
    <span class="name">{{ painting.name | uppercase }}</span>
