@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr" ng-app="galleryApp">
+<html lang="fr" ng-app="galleryApp" ng-controller="AppCtrl">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-  	<title>Guy Colin - Artiste peintre</title>
+  	<title>{{ 'page.title' | translate }}</title>
     <!-- CSS imports -->
     <link rel="stylesheet" href="css/app.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/animations.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
+    <!-- Fonts import -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cabin">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
   </head>
   <body>
   	  <!-- Top/Right corner image -->
 	  <img class="img-responsive top-corner" src="img/fixed_corner.png"/>
 	  <!-- Menu -->
-	  <div id="navigation_container">
-	  	  <div class="rectangle">
-			  <ul id="navigation">
-			      <li><a href="#">PARCOURS</a></li>
-			      <li><a href="#">PEINTURES</a></li>
-			      <li><a href="#">EXPOSITIONS</a></li>
-			      <li><a href="#">CONTACT</a></li>
-			   </ul>
-	  	   </div>
-	  	   <div class="r-triangle"></div>
-	  </div>
+	  <div id="navigation_container" class="menu" my-menu="main"></div>
 	  
 	  <!-- Main contenair - Home of angular views -->
 	  <div class="container view-container">
@@ -37,19 +30,16 @@
 	  
 	  <!-- Sticky footer -->
 	  <footer>
-	  	<div class="flag-container">
-		    <img class="flag" src="img/french.png"/> 
-			<img class="flag" src="img/english.png"/>
-		</div>
 	  	© 2014 GUY COLIN
 	  </footer>
 		
 	  <!-- JS imports -->
-	  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	  <script src="lib/underscore/underscore-min.js"></script>
 	  <script src="lib/angular/angular.js"></script>
 	  <script src="lib/angular/angular-route.js"></script>
 	  <script src="lib/angular/angular-animate.js"></script>
+	  <script src="lib/angular-translate/angular-translate.min.js"></script>
+	  <script src="i18n/labels.js"></script>
 	  <script src="js/app.js"></script>
 	  <script src="js/services.js"></script>
 	  <script src="js/controllers.js"></script>

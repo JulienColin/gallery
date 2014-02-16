@@ -1,0 +1,14 @@
+<div class="rectangle">
+	<ul id="navigation" >
+		<li><a ng-href="/#/home">{{ 'menu.home' | translate | uppercase }}</a></li>
+	  	<li><a ng-href="/#/about">{{ 'menu.about' | translate | uppercase }}</a></li>
+	  	<li><a ng-href="/#/paintings">{{ 'menu.paintings' | translate | uppercase }}</a></li>
+	  	<li><a ng-href="/#/exhibitions">{{ 'menu.exhibitions' | translate | uppercase }}</a></li>
+	  	<li><a ng-href="/#/contact">{{ 'menu.contact' | translate | uppercase }}</a></li>
+		<div class="flag-container">
+			<a alt="Français" title="Français" ng-click="changeLanguage('fr')"><img class="flag" src="img/french.png"/></a>
+			<a alt="English" title="English" ng-click="changeLanguage('en')"><img class="flag" src="img/english.png"/></a>
+		</div>
+	</ul>
+</div>
+<div class="r-triangle"></div>

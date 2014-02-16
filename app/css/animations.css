@@ -6,7 +6,14 @@
   animation: fadeIn 1s;
 }
 
-// Zoom effect
+.view-frame #navigation_sub_container {
+  -webkit-animation: slideInLeft 0.5s;
+  -moz-animation: slideInLeft 0.5s;
+  -ms-animation: slideInLeft 0.5s;
+  animation: slideInLeft 0.5s;
+}
+
+/* Hover zoom effect */
 .view-frame .painting.mini {
     -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
@@ -23,5 +30,6 @@
     -moz-transform: scale(1.03,1.05);
     -moz-transition-timing-function: ease-out;
     -moz-transition-duration: 250ms;
+    z-index: 500;
 }
 
