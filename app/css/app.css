@@ -40,7 +40,7 @@ h2 {
 	display: block;
 	text-decoration: none;
 	color: #f0f0f0;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-weight: bold;
 	text-shadow: 0px 2px 3px #555;
 }
@@ -91,7 +91,7 @@ h2 {
 .r-triangle.sub-menu {
 	border-color: #959595 transparent transparent;
 	border-width: 26px;
-	right: -26px;
+	right: -29px;
 	top: -26px;
 } 
 
@@ -147,7 +147,7 @@ footer, .push {
 	height: 2em;
 }
 div.flag-container {
-    padding-top: 9px;
+    padding-top: 7px;
 }
 img.flag {
 	height: 20px;	

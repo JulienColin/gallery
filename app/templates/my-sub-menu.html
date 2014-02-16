@@ -1,6 +1,8 @@
-<div class="rectangle sub-menu">
-	<ul id="navigation" class="sub-menu">
-		<li ng-repeat="menuItem in menuItems"><a class="{{menuItem.selected}}" title="{{menuItem.label}}" ng-href="{{ menuItem.url }}">{{ menuItem.label | uppercase }}</a></li>
-	</ul>
+<div ng-show="menuItems.length > 0">
+	<div class="rectangle sub-menu">
+		<ul id="navigation" class="sub-menu">
+			<li ng-repeat="menuItem in menuItems"><a class="{{menuItem.selected}}" title="{{menuItem.label}}" ng-href="{{ menuItem.url }}">{{ menuItem.label | uppercase }}</a></li>
+		</ul>
+	</div>
+	<div class="r-triangle sub-menu"></div>
 </div>
-<div class="r-triangle sub-menu"></div>
