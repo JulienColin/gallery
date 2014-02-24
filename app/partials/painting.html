@@ -1,8 +1,17 @@
-<h1>{{painting.name}}<h1>
- 
-<div class="painting-wrapper">
-  <li class="painting">
-  	<a ng-href="/#/{{ painting.gallery }}/{{ painting.id }}"><img ng-src="{{ painting.picture }}" alt="{{ painting.name }}" title="{{ painting.name }}"></a>
-  </li>
-  <span class="name">{{ painting.name | uppercase }}</span>
-</div>
+<h1>{{ painting.name | uppercase }}</h1>
+
+<section class="section-left">
+	<div class="painting-wrapper">
+	  <div class="painting maxi">
+	  	<a><img ng-src="{{ painting.picture }}" alt="{{ painting.name }}" title="{{ painting.name }}"></a>
+	  </div>
+	</div>
+</section>
+
+<section class="section-right">
+	<span>format : {{ painting.format }}</span>
+	<span>techinques : {{ painting.technic }}</span>
+	<div class="detail" ng-repeat="detail in painting.details">
+		<img ng-src="{{ detail.url }}">
+	</div>
+</section>

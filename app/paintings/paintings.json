@@ -12,7 +12,7 @@
                 "year": "",
                 "highlight": "true",
                 "thumbnail": "../img/thumbnails/Diptyque.jpeg",
-                "picture": "../img/pictures/Diptyque.jpeg"
+                "picture": "../img/pictures/Diptyque/Diptyque.jpeg"
             },
             {
                 "id": "monogramme4",
@@ -23,7 +23,7 @@
                 "year": "",
                 "highlight": "true",
                 "thumbnail": "../img/thumbnails/Monogramme4.jpeg",
-                "picture": "../img/pictures/Monogramme4.jpeg"
+                "picture": "../img/pictures/Monogramme4/Monogramme4.jpeg"
             },
             {
                 "id": "stain",
@@ -34,7 +34,7 @@
                 "year": "",
                 "highlight": "true",
                 "thumbnail": "../img/thumbnails/Stain.jpeg",
-                "picture": "../img/pictures/Stain.jpeg",
+                "picture": "../img/pictures/Stain/Stain.jpeg",
                 "description": {
                     "title": "Poncif",
                     "description": "Méthode de reproduction utilisée dans les ateliers de la  Renaissance. Le contour du dessin est piqué à la pointe. Une poudre de pierre ponce permet le transfert."
@@ -49,7 +49,17 @@
                 "year": "",
                 "highlight": "true",
                 "thumbnail": "../img/thumbnails/Bassano1.jpeg",
-                "picture": "../img/pictures/Bassano1.jpeg"
+                "picture": "../img/pictures/Bassano1/Bassano1.jpeg",
+                "details": [
+                    {
+                        "name" : "face",
+                        "url" : "../img/pictures/Bassano1/details/1.jpeg"
+                    },
+                    {
+                        "name" : "hand",
+                        "url" : "../img/pictures/Bassano1/details/2.jpeg"
+                    }
+                ]
             }
         ]
     },

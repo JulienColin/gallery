@@ -104,13 +104,12 @@ div.container {
 
 /* Gallery styles */
 .gallery {
-	padding: 30px;
 	text-align:center;
 	display: flex;
 	margin: 0;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: flex-start;;
+	align-items: flex-start;
 }
 .painting-wrapper .name {
 	float: left;	
@@ -123,6 +122,31 @@ div.container {
 	margin: 35px 20px 3px;
 	-webkit-box-shadow: 1px 5px 9px 2px #A8A2A2;
 	box-shadow: 1px 5px 9px 2px #A8A2A2;
+}
+
+/* Painting styles */
+.painting.maxi {
+	float: left;
+}
+section {
+	width: 50%;
+	display: block;
+	float: left;
+}
+section.section-right {
+	padding: 10px 0;
+}
+section.section-right .detail {
+		-webkit-box-shadow: 1px 5px 9px 2px #A8A2A2;
+	box-shadow: 1px 5px 9px 2px #A8A2A2;
+    display: block;
+    height: 50px;
+    padding: 14px;
+    width: 50px;
+}
+section.section-right .detail img {
+	height : 50px;
+	width: 50px;
 }
 
 /* Image styles */

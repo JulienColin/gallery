@@ -6,12 +6,12 @@
   animation: fadeIn 1s;
 }
 
-/* .view-frame #navigation_sub_container {
-  -webkit-animation: slideInLeft 0.5s;
-  -moz-animation: slideInLeft 0.5s;
-  -ms-animation: slideInLeft 0.5s;
-  animation: slideInLeft 0.5s;
-} */
+.menu {
+  -webkit-animation: slideInLeft 1s;
+  -moz-animation: slideInLeft 1s;
+  -ms-animation: slideInLeft 1s;
+  animation: slideInLeft 1s;
+}
 
 /* Hover zoom effect */
 .view-frame .painting.mini {
