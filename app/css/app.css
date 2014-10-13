@@ -136,15 +136,26 @@ section {
 section.section-right {
 	padding: 10px 0;
 }
-section.section-right .detail {
-		-webkit-box-shadow: 1px 5px 9px 2px #A8A2A2;
+section.section-right .details-wrapper {
+	display: flex;
+	margin-top: 35px;
+}
+section.section-right .detail-zone {
+	text-align: center;
+    width: 100%;
+}
+section.section-right .detail-list {
+    width: 93px;
+}
+section.section-right .detail-mini {
+	-webkit-box-shadow: 1px 5px 9px 2px #A8A2A2;
 	box-shadow: 1px 5px 9px 2px #A8A2A2;
-    display: block;
+    display: inline-block;
     height: 50px;
     padding: 14px;
     width: 50px;
 }
-section.section-right .detail img {
+section.section-right .detail-mini img {
 	height : 50px;
 	width: 50px;
 }

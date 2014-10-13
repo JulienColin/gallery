@@ -37,7 +37,7 @@
                 "picture": "../img/pictures/Stain/Stain.jpeg",
                 "description": {
                     "title": "Poncif",
-                    "description": "Méthode de reproduction utilisée dans les ateliers de la  Renaissance. Le contour du dessin est piqué à la pointe. Une poudre de pierre ponce permet le transfert."
+                    "text": "Méthode de reproduction utilisée dans les ateliers de la  Renaissance. Le contour du dessin est piqué à la pointe. Une poudre de pierre ponce permet le transfert."
                 }
             },
             {
@@ -81,10 +81,10 @@
                 "year": "",
                 "highlight": "true",
                 "thumbnail": "../img/thumbnails/Raphaello.jpeg",
-                "picture": "../img/pictures/Raphaello.jpeg",
+                "picture": "../img/pictures/Raphaello/Raphaello.jpeg",
                 "description": {
                     "title": "Retable",
-                    "description": "Retable. De l'occitan Retaule, Composition de Reire(Arrière) et Taule(Table,Autel). Partie postérieure verticale décoree d'un autel."
+                    "text": "Retable. De l'occitan Retaule, Composition de Reire(Arrière) et Taule(Table,Autel). Partie postérieure verticale décoree d'un autel."
                 }
             }
         ]

@@ -9,9 +9,24 @@
 </section>
 
 <section class="section-right">
+	<!-- Detail visualisation zone -->
+	<div class="details-wrapper">
+		<div class="detail-list">
+			<div class="detail-mini" ng-repeat="detail in painting.details">
+				<a ng-click="setDetail( detail.name , detail.url )">
+					<img alt="{{ detail.name }}" title="{{ detail.name }}" ng-src="{{ detail.url }}">
+				</a>
+			</div>
+		</div>
+		<div class="detail-zone"><img alt="{{ detail.name }}" title="{{ detail.name }}" src="{{ detail.url }}"></div>
+	</div>
+
+	<div class="description">
+		<span class="title">{{ painting.description.title }}</span>
+		<span class="text">{{ painting.description.description }}</span>
+	</div>
+
 	<span>format : {{ painting.format }}</span>
 	<span>techinques : {{ painting.technic }}</span>
-	<div class="detail" ng-repeat="detail in painting.details">
-		<img ng-src="{{ detail.url }}">
-	</div>
+
 </section>

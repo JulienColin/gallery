@@ -106,13 +106,20 @@ galleryAppControllers.controller('PaintingCtrl', ['$scope','$http','$routeParams
             var paintings = _.filter(selectedGallery.paintings, function(painting) { 
               return painting.id === $routeParams.paintingId;
             });
-          $scope.painting = paintings[0];     
+          $scope.painting = paintings[0]; 
+          $scope.detail = "";    
           }
 
     	});
       // Populate sub menu
       $scope.$parent.currentSubMenuItem = selectedGallery;
       $scope.$parent.subMenuItems = subMenuItems;
+
+      // Set detail function
+      $scope.setDetail = function (name,url) {
+        $scope.detail = { 'name': name, 'url': url };
+      }
+
   	});
 }]);
 

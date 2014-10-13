@@ -14,7 +14,7 @@
 }
 
 /* Hover zoom effect */
-.view-frame .painting.mini {
+.view-frame .painting.mini, .view-frame .detail-mini {
     -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
@@ -23,7 +23,9 @@
     -moz-transition-duration: 250ms;
 }
 
-.view-frame .painting.mini:hover {
+
+
+.view-frame .painting.mini:hover, .view-frame .detail-mini:hover {
     -webkit-transform: scale(1.03,1.05);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
